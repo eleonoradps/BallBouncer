@@ -15,11 +15,6 @@ public class MenuManager : MonoBehaviour
         SceneManager.LoadScene("SceneLorna");
     }
 
-    public void LoadSecondGameLevel()
-    {
-        SceneManager.LoadScene("Level2");
-    }
-
     public void Quit()
     {
         Application.Quit();
