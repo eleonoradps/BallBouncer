@@ -41,3 +41,9 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: ball
+    uniqueID: 3438959457
+    locked: 0
+  - name: winPoint
+    uniqueID: 2453786957
+    locked: 0
