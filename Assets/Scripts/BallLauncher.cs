@@ -9,7 +9,7 @@ public class BallLauncher : MonoBehaviour
 
     float bulletForce = 10f;
 
-    private bool canLaunch = true;
+    public static bool canLaunch = true;
 
     //public AudioSource bulletSound;
 
