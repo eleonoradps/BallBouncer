@@ -8,11 +8,18 @@ public class MenuManager : MonoBehaviour
     public void LoadScene(string sceneName)
     {
         SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1f;
     }
 
     public void LoadFirstGameLevel()
     {
-        SceneManager.LoadScene("SceneLorna");
+        SceneManager.LoadScene("SceneBryan");
+        Time.timeScale = 1f;
+    }
+
+    public void ReturnToMenu()
+    {
+        SceneManager.LoadScene("GameMenu");
     }
 
     public void Quit()

@@ -6,6 +6,7 @@ using UnityEngine.SceneManagement;
 
 public class CheckWin : MonoBehaviour
 {
+    [SerializeField] GameObject panelEndgame;
 
 
     public string sceneName;
@@ -14,7 +15,8 @@ public class CheckWin : MonoBehaviour
     {
         if (other.gameObject.tag == "ball")
         {
-            SceneManager.LoadScene(sceneName);
+            panelEndgame.SetActive(true);
+            Time.timeScale = 0f;
         }
     }
 }
